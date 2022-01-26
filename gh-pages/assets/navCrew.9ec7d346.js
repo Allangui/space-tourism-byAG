@@ -1,0 +1,1 @@
+import{_ as r}from"./index.3aeb65da.js";import{r as t,o as a,c as n,b as o}from"./vendor.433bd6b6.js";const _={};function c(s,p,d,l,u,v){const e=t("router-link");return a(),n("nav",null,[o(e,{to:"/crew/douglas"}),o(e,{to:"/crew/mark"}),o(e,{to:"/crew/victor"}),o(e,{to:"/crew/anousheh"})])}var b=r(_,[["render",c],["__scopeId","data-v-519278bb"]]);export{b as N};
