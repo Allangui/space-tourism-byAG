@@ -1,0 +1,162 @@
+.main{
+    h2{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:1.5rem;
+        letter-spacing: 4.725px;
+        font-weight: 400;
+        align-self: flex-start;
+        text-transform: uppercase;
+        margin:100px 0 50px 120px;
+        
+        
+        span{
+        margin-right:10px;
+        font-weight: 700;
+        opacity: .25;
+        font-size:1.5rem;
+        }
+    }
+    .content{
+        display:flex;
+        justify-content: space-between;
+        
+        .leftImg{
+            width:30vw;
+            min-width:350px;
+            height:auto;
+            margin:0 100px;
+            align-self: center;
+    
+        }
+        .description{
+            max-width: 350px;
+            text-align: left;
+            margin:50px auto 0;
+            
+            h3{
+            font-size: 5rem;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        p{
+                color:#D0D6F9;
+                padding: 20px 0 50px;
+                font-family: 'Barlow Condensed', sans-serif;
+                font-size: .8rem;
+                line-height: 1.5rem;
+                border-bottom: solid 1px #D0D6F9;
+            }
+        .details{
+            display:flex;
+            margin-top: 20px;
+            font-size: .6rem;
+        .distance{
+            color:#D0D6F9;
+            text-transform: uppercase;
+            font-size: .7rem;
+            letter-spacing: 2.3625px;
+            line-height: 1.7rem;
+            span{
+                font-size: 1.3rem;
+                font-family: 'Bellefair', 'serif';
+                letter-spacing: normal;
+            }
+        }
+        .travelTime{
+                margin-left:60px;
+                color:#D0D6F9;
+                text-transform: uppercase;
+                font-size: .7rem;
+                letter-spacing: 2.3625px;
+                line-height: 1.7rem;
+            span{
+                font-size: 1.3rem;
+                font-family: 'Bellefair', 'serif';
+                letter-spacing: normal;
+            }
+        }
+        }
+    
+        }
+        
+    }
+}
+.main-s{
+    h2{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:1.2rem;
+        letter-spacing: 3px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin:50px auto 30px ;
+        text-align: center;
+        
+        span{
+        margin-right:10px;
+        font-weight: 700;
+        opacity: .25;
+        font-size:1em;
+        }
+    }
+    .content{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        .leftImg{
+            width:50vw;
+        }
+        .description{
+            max-width: 80vw;
+            text-align: center;
+            margin:30px auto 50px;
+            
+            h3{
+            font-size: 3.5rem;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        p{
+                color:#D0D6F9;
+                padding: 20px 0 50px;
+                font-family: 'Barlow Condensed', sans-serif;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                border-bottom: solid 1px #D0D6F9;
+                
+            }
+        .details{
+            display:flex;
+            flex-direction: column;
+            margin-top: 20px;
+            
+        .distance{
+            color:#D0D6F9;
+            text-transform: uppercase;
+            font-size: .8rem;
+            letter-spacing: 2.3625px;
+            line-height: 1.7rem;
+            span{
+                font-size: 1.5rem;
+                font-family: 'Bellefair', 'serif';
+                letter-spacing: normal;
+            }
+        }
+        .travelTime{
+                margin-top: 30px;
+                color:#D0D6F9;
+                text-transform: uppercase;
+                font-size: .8rem;
+                letter-spacing: 2.3625px;
+                line-height: 1.7rem;
+            span{
+                font-size: 1.5rem;
+                font-family: 'Bellefair', 'serif';
+                letter-spacing: normal;
+            }
+        }
+        }
+    
+        }
+        
+    }
+}
